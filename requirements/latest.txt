@@ -1,4 +1,4 @@
 -r base.txt
 fsspec
 azure-core<2.0.0
-azure-storage-blob
+azure-storage-blob @ git+https://github.com/l0lawrence/azure-sdk-for-python.git@09fc6e9d3dab485b42fa0d7acac244b4d0304869#subdirectory=sdk/storage/azure-storage-blob
